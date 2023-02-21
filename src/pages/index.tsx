@@ -5,7 +5,7 @@ import { api } from "../utils/api";
 const GuestbookEntries = () => {
   const { data: guestbookEntries, isLoading } = api.guestbook.getAll.useQuery();
 
-  if (isLoading) return <div>Fetching messages...</div>;
+  if (isLoading) return <div>Fetching guestbook messages...</div>;
 
   return (
     <div className="flex flex-col gap-4">
