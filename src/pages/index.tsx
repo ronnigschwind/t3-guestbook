@@ -88,6 +88,7 @@ const Home = () => {
       <p>
         Tutorial for <code>create-t3-app</code>
       </p>
+      <p>Login with Discord to add a message</p>
       <div className="pt-10">
         <div>
           {session ? (
